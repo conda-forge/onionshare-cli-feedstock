@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "2.6.5"
+  version: "2.7.2"
 
 package:
   name: onionshare-cli
@@ -9,7 +9,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/o/onionshare_cli/onionshare_cli-${{ version }}.tar.gz
-    sha256: 6280e93307e5b8e78df5c23b346156d3cd3b8cb831e920ae33c3bb0edaf80ba2
+    sha256: 0d66489cd88e160b1a2e9a2e74159d567551d963fb278a7cb7c745b1072a8bcf
     patches:
       - patches/0001-relax-dependency-pins.patch
   # Neither the sdist nor the wheel ships a license file.
